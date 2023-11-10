@@ -1,6 +1,7 @@
 .vscode/
 .vs/
 
+*.user
 *.iml
 .idea/
 .externalNativeBuild/
@@ -8,10 +9,12 @@
 gradle/
 gradlew*
 local.properties
-build/
 support/.cxx
+##build/
 
 bin/
+.bin
+.obj
 /_CPack_Packages
 /CMakeScripts
 /doc/doxyxml
