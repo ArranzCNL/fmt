@@ -48,6 +48,9 @@
 
 #include "core.h"
 
+#pragma warning(push)
+#pragma warning(disable: 4996)
+
 #if defined __cpp_inline_variables && __cpp_inline_variables >= 201606L
 #  define FMT_INLINE_VARIABLE inline
 #else
@@ -4506,5 +4509,7 @@ FMT_END_NAMESPACE
 #else
 #  define FMT_FUNC
 #endif
+
+#pragma warning(pop)
 
 #endif  // FMT_FORMAT_H_
